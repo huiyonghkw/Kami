@@ -110,12 +110,12 @@ Visual anomalies (tag double rectangle, font fallback, page break issues) -> `pr
 ## Fonts
 
 **Chinese**
-- Main serif: TsangerJinKai02-W04.ttf (commercial, user-supplied)
+- Main serif: TsangerJinKai02-W04.ttf (commercial, included in repo)
 - Fallback chain baked into templates: Source Han Serif SC -> Noto Serif CJK SC -> Songti SC -> Georgia
 
 **English**
-- Main serif: Newsreader (Google Fonts, open source, Silicon Valley editorial feel)
-- Main sans: Inter (open source, Silicon Valley default - Linear, Vercel, Notion adjacent)
+- Main serif: Newsreader (Google Fonts, open source) - used for both headlines and body
+- Sans: Inter (open source) - used for UI elements only (labels, eyebrows, meta)
 - Fallback: Charter (macOS) / Georgia (cross-platform), Helvetica Neue / system-ui
 
 Font files next to HTML and `@font-face` relative paths is the most stable setup.
